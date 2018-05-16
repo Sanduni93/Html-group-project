@@ -1,0 +1,449 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 6, 2017, 10:02:00 AM
+    Author     : Gowann
+*/
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background: white;
+	font-family: 'Raleway', sans-serif;
+	font-size: 11pt;
+	font-weight: 400;
+	color: #363636;
+}
+
+
+h1,p{
+    text-align: center;
+    color: #1abc9c;
+}
+
+p, ol, ul {
+	margin-top: 0px;
+}
+
+a {
+	color: #171717;
+}
+
+a:hover {
+	text-decoration: none;
+}
+ul.b {
+    list-style-type: square;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 350px;
+    
+}
+
+.gallery:hover {
+    border: 1px solid #777;
+}
+
+.gallery img {
+    width: 100%;
+    height:250px;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+#form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    border: 1px solid #16a085;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+	ul.style1
+	{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	
+	ul.style1 li
+	{
+		border-top: solid 1px #E5E5E5;
+		padding: 0.80em 0;
+	}
+	
+	
+
+	ul.style2
+	{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	
+	ul.style2 li
+	{
+		border-top: solid 1px #E5E5E5;
+		padding: 0.80em 0;
+	}
+	
+	
+
+
+	
+	.title
+	{
+		margin-bottom: 2em;
+		text-transform: uppercase;
+	}
+
+	.title h2
+	{
+		font-weight: 400;
+		font-size: 2em;
+		color: #16a085;
+	}
+	
+	.title .byline
+	{
+		letter-spacing: 0.15em;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 0.90em;
+		color: #6F6F6F;
+	}
+
+
+#wrapper {
+	background: #FFFFFF url(images/bg01.png) repeat;
+}
+
+#footer-wrapper
+{
+	background: #0F0F0F;
+}
+.con{
+    background-color: white;
+    
+}
+.container {
+    
+	width: 1200px;
+	margin: 0px auto;
+}
+
+.clearfix {
+	clear: both;
+}
+
+
+
+
+#header-wrapper
+{
+	overflow: hidden;
+	
+	background-size: 100%;
+	padding: 6em 0em 2em 0em;
+	background:#FFFFFF;
+}
+
+
+
+
+	#header 
+	{
+		position: relative;
+		overflow: hidden;
+		text-align: center;
+	}
+
+
+
+	#logo 
+	{
+		width: 500px;
+		height: 100px;
+		margin: 0 auto;
+		padding: 2em 0em;
+		
+	}
+	
+
+	#banner 
+	{
+		max-width: 980px;
+                margin: auto;
+                position: relative;
+                
+	}
+        .icon{
+            width: 25px;
+            line-height: 40px;
+            background: black;
+            color: white;
+            text-align: center;
+            
+        }
+        .left{
+            position: absolute;
+            top: 50%;
+            left: 0%;
+            transform: translate(0%,-50%);
+        }
+        .right{
+            position: absolute;
+            top: 50%;
+            left: 0%;
+            transform: translate(0%,-50%);
+        }
+	
+	#banner .image
+	{
+	}
+	
+
+        .bar{
+            height: 20px;
+            width: 100%;
+            background-color: black;
+        }
+#menu-wrapper
+{
+	background: #16a085;
+}
+
+#menu {
+	overflow: hidden;
+	height: 75px;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+   padding-left: 85px;
+   padding-right: 15px;
+   text-align: center;
+    overflow: hidden;
+   
+}
+
+#menu li {
+	display: inline-block;
+         float: left;
+}
+
+#menu a {
+	display: block;
+   color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 25px 15px 25px 15px;
+    text-decoration: none;
+}
+
+#menu a:hover, #menu .current_page_item a {
+	text-decoration: none;
+        background-color: #111;
+         height: 100px;
+}
+
+#menu .current_page_item a {
+	background: #1abc9c;
+}
+
+
+
+#page
+{
+	position: relative;
+	overflow: hidden;
+	padding: 6em 0em 5em 0em;
+}
+
+	#sidebar
+	{
+		float: right;
+		width: 200px;
+	}
+	
+	#sidebar .title h2
+	{
+		font-size: 1.6em;
+	}
+	
+	#sidebar .box1
+	{
+		margin-bottom: 3em;
+	}
+
+
+
+
+	#copyright
+	{
+		overflow: hidden;
+		padding: 5em 0em;
+		text-align: center;
+	}
+	
+	#copyright p
+	{
+		letter-spacing: 0.20em;
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 0.80em;
+		color: black;
+	}
+	
+	#copyright a
+	{
+		text-decoration: none;
+		color: rgba(255,255,255,.7);
+	}
+
+
+	#footer-wrapper
+	{
+		overflow: hidden;
+		padding: 5em 0em;
+		background: #1E1B1A;
+	}
+
+	#footer
+	{
+		color: #ADADAD;
+	}
+	
+	#footer .title h2
+	{
+		font-weight: 400;
+		font-size: 1.2em;
+		color: #FFF;
+	}
+
+	#footer .title
+	{
+		border-color: #2D2926 !important;
+	}
+	
+	#footer .style1 li
+	{
+		border-color: #2D2926 !important;
+	}
+	
+	#footer .style1 a
+	{
+		font-size:1em;
+		color: #B1B1B1;
+	}
+	
+	#box1
+	{
+		float: left;
+		width: 354px;
+		margin-right: 24px;
+		padding-right: 30px;
+	}
+	
+	#box2
+	{
+		float: left;
+		width: 354px;
+		margin-left: 24px;
+		padding-right: 30px;
+	}
+	
+	#box3
+	{
+		float: right;
+		width: 344px;
+		padding-left: 40px;
+	}
+
+
+	
